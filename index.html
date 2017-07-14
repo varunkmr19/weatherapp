@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+	<title>Local Weather</title>
+	<!-- BootStrap CDN -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Font Awesome CDN -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- Custom CSS -->
+	<link href="style.css" rel="stylesheet">
+	<!-- jQuery CDN -->
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <!-- Custom js -->
+  <script type="text/javascript" src="script.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+
+</head>
+<body>
+<!-- Header-->
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<a class="navbar-brand" style="color: #fff;" href="#"><strong>LOCAL WEATHER APP</strong></a>
+	</div>
+</nav>
+<div class="row">	
+<div class="square col-md-6 col-md-offset-3">
+		<p><button id="btn" class="btn btn-primary" onclick="geoFindMe()">Use my location</button></p>
+<!-- Toggle Switch -->
+<div class="switch">
+
+</div>
+
+<div id="icon"></div>
+<div id="out"></div>
+</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<p class="text-center">
+			<a href="https://twitter.com/varunkmr19"><i class="fa fa-twitter-square fa-2x" aria-hidden = "true"></i></a>
+			<a href="https://github.com/varunkmr19"><i class="fa fa-github-square fa-2x" aria-hidden = "true"></i></a>
+			<a href="https://www.linkedin.com/in/varun-kumar-121a7582/"><i class="fa fa-linkedin-square fa-2x" aria-hidden = "true"></i></a>
+		</p>
+		<p class = "text-center">Icons Credit - <a href="https://icons8.com" target="blank">Icons8.com</a></p> 
+	</div>
+</div>
+</body>
+</html>
