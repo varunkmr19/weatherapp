@@ -50,7 +50,7 @@ function geoFindMe() {
           break;
           case 801: case 802: case 803: case 804:
           $('#icon').append('<p><img src = "images/partly_cloud.png"><br>' + results.weather[0].main + '</p>');
-           $('body').css('background-image', 'url("images/cloud.jpg")');
+           $('body').css('background-image', 'url("images/rain.jpg")');
           break;      
         }
       }
